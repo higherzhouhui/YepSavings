@@ -3,10 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "node server.js",
+    "dev:test": "APP_ENV=test node server.js",
+    "dev:prod": "APP_ENV=production node server.js",
+    "build": "APP_ENV=production next build",
+    "build:dev": "APP_ENV=development next build",
+    "build:test": "APP_ENV=test next build",
+    "build:prod": "APP_ENV=production next build",
+    "start": "APP_ENV=production NODE_ENV=production node server.js",
+    "start:dev": "APP_ENV=development node server.js",
+    "start:test": "APP_ENV=test node server.js",
+    "start:prod": "APP_ENV=production node server.js",
+    "pm2": "pm2 start npm --name 'yepsavings' -- start",
+    "static-run": "next export && serve out",
+    "lint": "next lint",
+    "build:win": "set APP_ENV=production && next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.13",
@@ -14,11 +25,17 @@
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "axios": "^1.3.4",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
     "next": "13.2.4",
+    "qs": "^6.11.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^4.2.0",
     "typescript": "4.9.5"
   },
   "devDependencies": {
