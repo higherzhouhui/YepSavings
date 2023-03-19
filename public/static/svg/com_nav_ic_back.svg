@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>com_nav_ic_back@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="详情页" transform="translate(0.000000, -88.000000)" fill-rule="nonzero">
+            <g id="com_nav_ic_back_nor" transform="translate(0.000000, 88.000000)">
+                <rect id="矩形" fill="#141414" opacity="0" x="0" y="0" width="88" height="88"></rect>
+                <path d="M63.5857864,30 L63.5857864,34 L39.5857864,34 L39.5857864,58 L35.5857864,58 L35.5857864,30 L63.5857864,30 Z" id="合并形状" fill="#3B3C51" transform="translate(49.585786, 44.000000) rotate(-45.000000) translate(-49.585786, -44.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

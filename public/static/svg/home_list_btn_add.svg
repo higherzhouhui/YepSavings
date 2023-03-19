@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home_list_btn_add@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="详情页" transform="translate(-571.000000, -1127.000000)">
+            <g id="information" transform="translate(30.000000, 784.000000)">
+                <g id="btn" transform="translate(498.000000, 321.000000)">
+                    <g id="编组-10" transform="translate(43.000000, 14.000000)">
+                        <g id="home_list_btn_add" transform="translate(0.000000, 8.000000)">
+                            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="22" height="22"></rect>
+                            <path d="M12,0 L12,9 L21,9 L21,12 L12,12 L12,21 L9,21 L9,12 L0,12 L0,9 L9,9 L9,0 L12,0 Z" id="形状结合" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

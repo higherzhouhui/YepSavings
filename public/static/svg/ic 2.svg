@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic 2@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="详情页" transform="translate(-661.000000, -3198.000000)" fill="#1A77F2">
+            <g id="ic" transform="translate(640.000000, 3066.000000)">
+                <g id="details_ic_top_nor" transform="translate(0.000000, 111.000000)">
+                    <g id="ic-2" transform="translate(21.000000, 21.000000)">
+                        <path d="M36,33 L36,36 L3,36 L3,33 L36,33 Z M19.5,1.01870292 L32.9350288,14.4537318 L30.8516955,16.5370651 L21,6.68670292 L21,28 L18,28 L18,6.68470292 L8.14830449,16.5370651 L6.06497116,14.4537318 L17.4169712,3.10270292 L17.4166667,3.10203625 L19.5,1.01870292 Z" id="ic"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

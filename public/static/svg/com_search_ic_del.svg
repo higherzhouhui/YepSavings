@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>com_search_ic_del@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="搜索" transform="translate(-671.000000, -117.000000)">
+            <g id="nav" transform="translate(0.000000, 88.000000)">
+                <g id="search" transform="translate(108.000000, 9.000000)">
+                    <g id="com_search_ic_del" transform="translate(563.000000, 20.000000)">
+                        <circle id="椭圆形" stroke="#081424" stroke-width="2" cx="15" cy="15" r="14"></circle>
+                        <path d="M16.0008306,8.95910826 L16.0008306,14.4581083 L21.5008306,14.4591083 L21.5008306,16.4591083 L16.0008306,16.4581083 L16.0008306,21.9591083 L14.0008306,21.9591083 L14.0008306,16.4581083 L8.50083056,16.4591083 L8.50083056,14.4591083 L14.0008306,14.4581083 L14.0008306,8.95910826 L16.0008306,8.95910826 Z" id="形状结合" fill="#081424" transform="translate(15.000831, 15.459108) rotate(-315.000000) translate(-15.000831, -15.459108) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

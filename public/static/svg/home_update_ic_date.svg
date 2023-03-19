@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home_update_ic_date@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-54.000000, -602.000000)">
+            <g id="tips" transform="translate(30.000000, 512.000000)">
+                <g id="时间" transform="translate(24.000000, 85.000000)">
+                    <g id="home_update_ic_date" transform="translate(0.000000, 5.000000)">
+                        <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                        <g id="编组-2" transform="translate(1.000000, 1.000000)">
+                            <rect id="矩形" fill="#081424" x="7" y="0" width="3" height="9"></rect>
+                            <rect id="矩形备份" fill="#1A77F2" x="7" y="13" width="16" height="3"></rect>
+                            <rect id="矩形备份-5" fill="#1A77F2" x="7" y="20" width="10" height="3"></rect>
+                            <rect id="矩形备份-10" fill="#081424" x="20" y="0" width="3" height="9"></rect>
+                            <path d="M30,3 L30,30 L0,30 L1.65327318e-15,3 L30,3 Z M27,6 L3,6 L3,27 L27,27 L27,6 Z" id="形状结合" fill="#081424"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

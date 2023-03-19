@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home_Costco Flyer_ic_date@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="海报页" transform="translate(-145.000000, -947.000000)">
+            <g id="编组-6" transform="translate(30.000000, 928.000000)">
+                <g id="home_Costco-Flyer_ic_date" transform="translate(115.000000, 19.000000)">
+                    <g id="编组-5" transform="translate(0.000000, 0.848976)">
+                        <rect id="矩形" x="0" y="0" width="40" height="39.6979517"></rect>
+                        <polygon id="形状" fill="#1A77F2" points="31 6.15102413 31 3.15102413 28 3.15102413 28 6.15102413 11 6.15102413 11 3.15102413 8 3.15102413 8 6.15102413 2 6.15102413 2 38.1510241 37 38.1510241 37 6.15102413"></polygon>
+                        <g id="编组-3" transform="translate(2.000000, 10.151024)" fill="#C1DCFF">
+                            <polygon id="矩形" points="0 0 35 5.49518764e-13 35 3 0 3"></polygon>
+                            <path d="M11,8 L11,12.962244 L6,12.962244 L6,8 L11,8 Z M15.2499196,8 L20,8 L20,12.962244 L15,12.962244 L15,8 L15.2499196,8 Z M29,8 L29,12.962244 L24,12.962244 L24,8 L29,8 Z M6,17 L11,17 L11,21.962244 L6,21.962244 L6,17 Z M15,17 L20,17 L20,21.962244 L15,21.962244 L15,17 Z M24,17 L29,17 L29,21.962244 L24,21.962244 L24,17 Z" id="形状"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,49 @@
+.NavbarContainer {
+  width: 100%;
+  height: 44px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.left {
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 44px;
+  height: 44px;
+}
+.right {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 27px;
+}
+.left svg {
+  width: 100%;
+  height: 100%;
+}
+.right button {
+  padding: 0 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgb(232, 241, 253);
+  font-weight: 500;
+  color: #1A77F2;
+  font-size: 14px;
+}
+.home .middle img {
+  width: 134px;
+  height: 23px;
+}

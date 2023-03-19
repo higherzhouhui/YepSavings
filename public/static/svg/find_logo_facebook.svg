@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>find_logo_facebook@2x</title>
+    <defs>
+        <path d="M6.66256381,3.67211369 C6.66256381,4.14993503 6.66256381,6.28265197 6.66256381,6.28265197 L4.75,6.28265197 L4.75,9.47482831 L6.66256381,9.47482831 L6.66256381,18.9608538 L10.5913759,18.9608538 L10.5913759,9.47509281 L13.2277912,9.47509281 C13.2277912,9.47509281 13.474703,7.94446868 13.5943898,6.27088167 C13.2512436,6.27088167 10.606232,6.27088167 10.606232,6.27088167 C10.606232,6.27088167 10.606232,4.41377494 10.606232,4.08826218 C10.606232,3.76204408 11.0345916,3.32323666 11.4579698,3.32323666 C11.8805545,3.32323666 12.7724524,3.32323666 13.5985336,3.32323666 C13.5985336,2.88861717 13.5985336,1.38691183 13.5985336,0 C12.4957401,0 11.241123,0 10.6880951,0 C6.5654478,-0.000220417633 6.66256381,3.19512993 6.66256381,3.67211369 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="详情页" transform="translate(-64.000000, -3492.000000)">
+            <g id="Find-Us-on-Facebook" transform="translate(-0.000000, 3058.000000)">
+                <g id="banner" transform="translate(30.000000, 221.000000)">
+                    <g id="编组-16" transform="translate(24.000000, 208.000000)">
+                        <g id="find_logo_facebook" transform="translate(10.000000, 5.000000)">
+                            <circle id="Oval" fill="#3963C7" cx="19" cy="19" r="19"></circle>
+                            <g id="Icon-/-facebook" transform="translate(10.000000, 10.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
