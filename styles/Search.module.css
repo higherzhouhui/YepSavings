@@ -1,0 +1,8 @@
+.SearchContariner {
+  min-height: calc(100vh - 44px);
+  background-color: #fff;
+}
+
+.productList {
+  background: rgb(232, 241, 253);
+}

@@ -1,0 +1,24 @@
+.messageWrapper {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  z-index: 10001;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.text {
+  font-size: 1rem;
+  color: #ffffff;
+  width: max-content;
+  display: flex;
+  max-width: 80vw;
+  word-break: break-all;
+}

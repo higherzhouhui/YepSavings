@@ -16,10 +16,10 @@ const Home: NextPage = () => {
     {name: 'Food', value: 'Food'},
     {name: 'NonFood', value: 'NonFood'},
     {name: 'Clothing', value: 'Clothing'},
-    {name: 'All', value: 'all'},
-    {name: 'All', value: 'all'},
-    {name: 'All', value: 'all'},
-    {name: 'All', value: 'all'},
+    {name: 'Shoes', value: 'Shoes'},
+    {name: 'Backet', value: 'Backet'},
+    {name: 'Chicken', value: 'Chicken'},
+    {name: 'Meta visa', value: 'Meta visa'},
   ]
   const [currentType, setCurrentType] = useState(typeList[0])
   const [productList, setProductList] = useState<any[]>([
@@ -81,9 +81,9 @@ const Home: NextPage = () => {
   ])
   const [activityList, setActivityList] = useState<any[]>([
     {time: 'Valid January 2 to 29, 2023', cover: '/static/image/activity1.png'},
-    {time: 'Valid January 1 to 29, 2023', cover: '/static/image/activity2.png'},
-    {time: 'Valid January 1 to 29, 2023', cover: '/static/image/activity1.png'},
-    {time: 'Valid January 1 to 29, 2023', cover: '/static/image/activity2.png'},
+    {time: 'Valid January 12 to 28, 2023', cover: '/static/image/activity2.png'},
+    {time: 'Valid January 3 to 19, 2023', cover: '/static/image/activity1.png'},
+    {time: 'Valid January 8 to 25, 2023', cover: '/static/image/activity2.png'},
   ])
 
   return (

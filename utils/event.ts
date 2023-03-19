@@ -1,3 +1,4 @@
+import { IMessageProps } from '@/components/message';
 import {EventEmitter} from 'events';
 
 
@@ -17,3 +18,8 @@ export enum IMessageType {
   LOADING = 'LOADING',
   WARN = 'WARN',
 }
+
+// 传入提示状态与内容参数即可
+export const showTip = (option: IMessageProps) => {
+  Event.emit(EventTypes.Message, option);
+};

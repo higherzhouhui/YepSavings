@@ -1,6 +1,5 @@
 import {NextRouter} from 'next/router';
 
-import 'nprogress/nprogress.css';
 /**
  * 防抖
  */
