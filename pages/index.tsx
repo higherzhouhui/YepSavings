@@ -160,7 +160,10 @@ sale items updates</div>
                 activityList.map((item, index) => {
                   return <div className='mb-8' key={index}>
                     <div className={style.validTime}>
-                      <div className={style.validTimeContent}><SvgIcon name='home_Costco Flyer_ic_date' />{item.time}</div>
+                      <div className={style.validTimeContent}>
+                        <SvgIcon name='home_Costco Flyer_ic_date' />
+                        <span className='text-blue-600 font-semibold'>{item.time}</span>
+                        </div>
                     </div>
                     <div className={style.activityCover}>
                       <Image src={item.cover} fill={true} alt='avtivity' />
