@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
 import { NextPage } from 'next';
-import style from '@/styles/Search.module.css'
-import { Navbar, SearchInput, Product } from '@/components';
+import style from '@/styles/Search.module.scss'
+import { Navbar, SearchInput, Product, LoadMore } from '@/components';
 
 const Search: NextPage = () => {
   const tabList = [
@@ -80,15 +80,16 @@ const Search: NextPage = () => {
  
   return (
     <div className={style.SearchContainer}>
-        <Navbar type='Search' />
-          <div className={`container p-4 ${style.productList}`}>
-            {
-              productList.map((item: any, index) => {
-                return <Product {...item} key={index} />
-              })
-            }
-          </div>
-        </div>
+      <Navbar type='Search' />
+        <div className={`container p-4 ${style.productList}`}>
+          {
+            productList.map((item: any, index) => {
+              return <Product {...item} key={index} />
+            })
+          }
+      </div>
+      <LoadMore remain={111} handleCllick={() => alert(1)} />
+    </div>
   )
 }
 

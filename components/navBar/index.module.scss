@@ -67,3 +67,16 @@
 .searchInputWrapper {
   flex: 1;
 }
+
+.normaltNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  .back {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.container {
+  position: absolute;
+  bottom: 100px;
+  right: 15px;
+  z-index: 999;
+  .remain, .backTop {
+    width: 40px;
+    height: 40px;
+    background: #E4EFFF;
+    border-radius: 5px;
+    border: 1px solid rgba(26,119,242,0.5);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .remain .number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 3px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 12px;
+    background: #1A77F2;
+    transform: scale(0.8);
+  }
+  .backTop {
+    margin-top: 10px;
+  }
+  svg {
+    width: 19px;
+    height: 19px;
+  }
+}

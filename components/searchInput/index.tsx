@@ -1,7 +1,7 @@
 import {SvgIcon} from "@/uikit";
 import { useRouter } from "next/router";
 import { ChangeEvent, FC, memo, useEffect, useState } from "react";
-import style from './index.module.css'
+import style from './index.module.scss'
 
 export interface SearchInputProps {
   type?: string;

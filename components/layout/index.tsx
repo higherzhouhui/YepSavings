@@ -1,5 +1,5 @@
 import { FC, memo, ReactNode } from "react";
-import style from './index.module.css'
+import style from './index.module.scss'
 interface LayoutProps {
   children: ReactNode
 }

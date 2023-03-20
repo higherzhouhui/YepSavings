@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from 'react'
 import { NextPage } from 'next';
-import style from '@/styles/Detail.module.css'
-import { Navbar, SearchInput, Product } from '@/components';
+import style from '@/styles/Detail.module.scss'
+import { Navbar, SearchInput, Product, LoadMore } from '@/components';
 import { SvgIcon } from '@/uikit';
 import Image from 'next/image'
 import { useRouter } from 'next/router';
@@ -131,6 +131,7 @@ every Monday and Friday!</div>
             </div>
           </div>
         </div>
+        <LoadMore remain={111} handleCllick={() => alert(1)} />
     </div>
   )
 }

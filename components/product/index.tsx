@@ -1,6 +1,6 @@
 import {SvgIcon} from "@/uikit";
 import { FC, memo } from "react";
-import style from './index.module.css'
+import style from './index.module.scss'
 import Image from 'next/image'
 import { showTip } from "@/utils";
 import { useRouter } from "next/router";

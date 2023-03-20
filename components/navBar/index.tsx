@@ -2,7 +2,7 @@ import {SvgIcon} from "@/uikit";
 import { useRouter } from "next/router";
 import { FC, memo } from "react";
 import { SearchInput } from "../searchInput";
-import style from './index.module.css'
+import style from './index.module.scss'
 
 export interface NavbarProps {
   type?: string;
@@ -37,7 +37,12 @@ export const Navbar: FC<NavbarProps> = memo(({type, title, background}) => {
         <button>Sign up</button>
       </div>
     </div> :
-      <div>1</div>
+      <div className={style.normaltNav}>
+        <div className={style.back} onClick={() => router.back()}>
+          <SvgIcon name="com_nav_ic_back" />
+        </div>
+        <span className="text-xl font-bold">{title}</span>
+      </div>
     }
     
   </div>

@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
 import { NextPage } from 'next';
-import style from '@/styles/Home.module.css'
-import { Navbar, SearchInput, Product } from '@/components';
+import style from '@/styles/Home.module.scss'
+import { Navbar, SearchInput, Product, LoadMore } from '@/components';
 import { SvgIcon } from '@/uikit';
 import Image from 'next/image'
 
@@ -173,6 +173,7 @@ sale items updates</div>
               }
             </div>
         </div>
+        <LoadMore remain={111} handleCllick={() => alert(1)} />
     </div>
   )
 }
