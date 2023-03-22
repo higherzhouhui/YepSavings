@@ -39,7 +39,7 @@ const Login: NextPage = () => {
               }}
               {...register("email", { required: true })}
             />
-            {errors.username && (
+            {errors.email && (
               <p className="text-[#F72C2B] text-[13px]">Email is required.</p>
             )}
           </div>
@@ -66,7 +66,7 @@ const Login: NextPage = () => {
 
             {errors.password && (
               <p className="text-[#F72C2B] text-[13px]">
-                Username is required.
+                Password is required.
               </p>
             )}
           </div>
