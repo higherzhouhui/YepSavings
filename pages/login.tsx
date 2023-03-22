@@ -4,9 +4,10 @@ import { NextPage } from "next";
 import { useForm } from "react-hook-form";
 import { Nav } from "@/components";
 import Image from "next/image";
-import { Input } from "@/components/base";
+import { useRouter } from "next/router";
 
 const Login: NextPage = () => {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -31,17 +32,15 @@ const Login: NextPage = () => {
           <div>
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Email"
               className="w-full h-[45px] border-[#CECECE] border rounded-[5px] px-[15px]"
               style={{
-                borderColor: errors.username ? "#F72C2B" : "#CECECE",
+                borderColor: errors.email ? "#F72C2B" : "#CECECE",
               }}
-              {...register("username", { required: true })}
+              {...register("email", { required: true })}
             />
             {errors.username && (
-              <p className="text-[#F72C2B] text-[13px]">
-                Username is required.
-              </p>
+              <p className="text-[#F72C2B] text-[13px]">Email is required.</p>
             )}
           </div>
           <div className="mt-[10px] relative">
@@ -82,7 +81,14 @@ const Login: NextPage = () => {
           </button>
           <p className="mt-[25px] text-center">
             Don&apos;t have an account？
-            <span className="text-[#1A77F2]">Sign up</span>
+            <span
+              className="text-[#1A77F2]"
+              onClick={() => {
+                router.push("/register");
+              }}
+            >
+              Sign up
+            </span>
           </p>
         </form>
       </div>

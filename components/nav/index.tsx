@@ -15,7 +15,7 @@ export const Nav: FC<INavProps> = memo(({ title, operator }) => {
       <div className="w-[44px] h-[44px] absolute left-0 top-0">
         <SvgIcon name="com_nav_ic_back" width={44} height={44} />
       </div>
-      <h3 className="h-full flex items-center justify-center text-[#2B2C43] text-[19px] font-semibold">
+      <h3 className="h-full flex items-center justify-center text-[#2B2C43] text-[19px] font-medium">
         {title}
       </h3>
       <div className="h-[44px] absolute right-0 top-0">{operator}</div>
