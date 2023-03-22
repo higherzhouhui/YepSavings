@@ -86,7 +86,7 @@ const Detail: NextPage = () => {
     }
   }, [id])
   return (
-    <div className={style.DetailContainer}>
+    <div className={`${style.DetailContainer} container mx-auto`}>
         <Navbar type='Detail'/>
         <Product {...detail} detail={true} />
         <div className={style.advert}>

@@ -87,10 +87,10 @@ const Home: NextPage = () => {
   ])
 
   return (
-    <div className={style.HomeContainer}>
+    <div className={`${style.HomeContainer} container mx-auto`}>
         <Navbar type='Home' />
-        <div className='container px-4'>
-          <div className='container flex h-9 items-center'>
+        <div className='px-4'>
+          <div className='flex h-9 items-center'>
             <SvgIcon name='ic' width={19} height={19} />
             <div className='mx-3 flex font-medium'>
               Location:
@@ -98,12 +98,12 @@ const Home: NextPage = () => {
             </div>
             <SvgIcon name='home_add_ic_arrow_down' width={14} height={14} />
           </div>
-          <div className={`container my-3 h-32 ${style.banner}`}>
+          <div className={`my-3 h-32 ${style.banner}`}>
             <div className={`px-6 text-lg font-semibold text-white text-center ${style.bannerText}`}>Not in flyer Costco in-warehouse
 sale items updates</div>
             <img src='/static/image/homeBanner.png' alt='homepage' className='object-cover w-full h-full'/>
           </div>
-          <div className={`container my-3 h-28 ${style.update}`}>
+          <div className={`my-3 h-28 ${style.update}`}>
             <div className={`py-3 pl-3 ${style.updateText}`}>
               <div className='text-lg text-blue-600 font-semibold'>Update this afternoon</div>
               <div className='mt-2 flex items-center'>

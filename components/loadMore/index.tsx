@@ -23,7 +23,7 @@ export const LoadMore: FC<LoadMoreProps> = memo(({remain, handleCllick}) => {
       window.scrollTo(0,scrollTop);
     }, 20);
   }
-  return <div className={style.container}>
+  return <div className={`${style.container} ${remain > 0 ? 'visible' : 'invisible'}`}>
     <div className={style.remain} onClick={handleCllick}>
       <SvgIcon name="com_suspension_ic_list" />
       <div className={style.number}>{remain || 0}</div>

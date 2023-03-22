@@ -13,7 +13,7 @@ export interface NavbarProps {
 export const Navbar: FC<NavbarProps> = memo(({type, title, background}) => {
   const router = useRouter();
 
-  return <div className={style.NavbarContainer} style={{background: background || '#fff'}}>
+  return <div className={`${style.NavbarContainer} container`} style={{background: background || '#fff'}}>
     {
       type === 'Home' ? <div className={style.home}>
         <div className={style.left}><SvgIcon name="home_nac_ic_menu" /></div>
@@ -23,7 +23,7 @@ export const Navbar: FC<NavbarProps> = memo(({type, title, background}) => {
         </div>
       </div> : type === 'Search' ?
       <div className={style.searchContainer}>
-        <div className={style.back} onClick={() => router.back()}>
+        <div className={style.back} onClick={() => router.push('/')}>
           <SvgIcon name="com_nav_ic_back" />
         </div>
         <div className={style.searchInputWrapper}><SearchInput /></div>

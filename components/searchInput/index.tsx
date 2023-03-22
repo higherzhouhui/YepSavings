@@ -20,6 +20,10 @@ export const SearchInput: FC<SearchInputProps> = memo(({type, title, background,
   const onkeydown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
       router.push(`/search?search=${searchValue}`)
+      const list = localStorage.getItem('historyList')
+      if (searchValue) {
+        localStorage.setItem('historyList', list ? list + ',' + searchValue : searchValue)
+      }
     }
   }
   const { search } = router.query
