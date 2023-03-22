@@ -5,3 +5,4 @@ export * from './product';
 export * from './message';
 export * from './loadMore';
 export * from './shopItem';
+export * from './nav';
